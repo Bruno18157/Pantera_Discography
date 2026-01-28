@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+body{
+    background-color: #000;
+    color: #fff;
+    justify-items: center;
+    font-family: Outfit;
+}
+header h2{
+    color: #fff;
+    font-weight: 200;
+}
+h1{
+    letter-spacing: 2px;
+}
+ul li{
+    display: flex;
+    margin: 0 3px;
+}
+.cartao{
+    font-family: Outfit, sans-serif;
+    border: 9px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    width: 380px;
+    height: 400px;
+    vertical-align: tp;
+    background-color: #000000;
+    color: #f4f5f1;
+    overflow-y: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.cartao img{
+    width: 100%;
+    border-radius: 5px;
+}
+ul li{
+    list-style: none;
+}
+footer p{
+    font-family: sans-serif;
+    color: #f4f5f1;
+    font-weight: 200;
+}
+.discografia{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.banner{
+    background: url() no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #f4f5f1;
+}
+img{
+    width: 80%;
+}
+.container{
+    text-align: center;
+}
+.container img{
+    width: 80%;
+}
+footer p{
+    font-weight: 300;
+    font-family: Outfit;
+    color: #fff;
+}
+.btn-link{
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+.btn-link:hover{
+    cursor: pointer;
+}
+a{
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
